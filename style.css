@@ -1,12 +1,14 @@
 span
 {
-    text-transform: capitalize;
-    color: black;
-    background-color: white;
-}
-
-span:hover
-{
+    text-transform: uppercase;
     background-color: red;
     color: white;
+    letter-spacing: 1px;
+}
+span:hover
+{
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    letter-spacing: 2px;
 }
