@@ -63,10 +63,22 @@
     word-spacing: 2px;
 }
 
-.cardbutton
+.cardcontent button
 {
     border-radius: 20px;
+    position: relative;
+    left: 135px;
+    font-size: 20px;
+    top: -10px;
+    text-decoration: none;
+    background-color: rgb(109, 203, 219);
 }
+
+.cardcontent button a
+{
+    text-decoration: none;
+}
+
 
 
 
